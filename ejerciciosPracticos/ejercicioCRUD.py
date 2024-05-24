@@ -44,3 +44,4 @@ def update_producto(id: int, producto: Producto):
 def update_producto(id: int):
     del listaProductos[id]
     return {"mensaje": "Producto eliminado exitosamente."}
+
